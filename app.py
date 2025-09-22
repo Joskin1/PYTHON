@@ -1,6 +1,7 @@
-import math
-
-radius = float(input("Enter the radious of the circle "))
-area = math.pi *pow(radius,2)
-print(f"The area of the circle is {area}")
-
+#if
+age = int(input("Enter your age: "))
+if age >= 18:
+    print("You are eligible to vote.")
+else:
+    print("You are not eligible to vote.")
+# End if
