@@ -1,9 +1,8 @@
-#if
-age = int(input("Enter your age: "))
-if age >= 18:
-    print("You are eligible to vote.")
-elif age == 17:
-        print("You are almost eligible to vote.")   
+
+
+respose = input("Would you like food? (Y/N)")
+
+if respose == "Y":
+    print("Have some food")
 else:
-    print("You are not eligible to vote.")
-# End if
+    (print("No food for you"))
