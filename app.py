@@ -1,7 +1,6 @@
-item = input("What item would you like to buy?: ")
-price = float(input(f"What is the price of {item}?: "))
-quantity = int(input(f"How many {item}s would you love to buy?: "))
-total = price * quantity
+import math
 
-print(f"You have bought {quantity} {item}s")
-print(f"Your total is ${total:.2f}")
+radius = float(input("Enter the radious of the circle "))
+area = math.pi *pow(radius,2)
+print(f"The area of the circle is {area}")
+
